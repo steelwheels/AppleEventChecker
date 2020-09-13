@@ -7,25 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		050B884A250B9E3A0080771A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B8849250B9E3A0080771A /* AppDelegate.swift */; };
-		050B884C250B9E3A0080771A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B884B250B9E3A0080771A /* ViewController.swift */; };
-		050B884E250B9E3D0080771A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050B884D250B9E3D0080771A /* Assets.xcassets */; };
-		050B8851250B9E3D0080771A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050B884F250B9E3D0080771A /* Main.storyboard */; };
-		05673707250BA3A5002A0CC2 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05673705250BA2D3002A0CC2 /* CoconutData.framework */; };
-		05673708250BA3A5002A0CC2 /* CoconutData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05673705250BA2D3002A0CC2 /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0567370A250BA3A7002A0CC2 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05673703250BA2BB002A0CC2 /* KiwiControls.framework */; };
-		0567370B250BA3A7002A0CC2 /* KiwiControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05673703250BA2BB002A0CC2 /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05031D51250C873E00F38B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05031D50250C873E00F38B37 /* AppDelegate.swift */; };
+		05031D54250C878D00F38B37 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D53250C878D00F38B37 /* KiwiControls.framework */; };
+		05031D55250C878D00F38B37 /* KiwiControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D53250C878D00F38B37 /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05031D58250C87A200F38B37 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D57250C87A200F38B37 /* CoconutData.framework */; };
+		05031D59250C87A200F38B37 /* CoconutData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D57250C87A200F38B37 /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		05180401250C853600E7E964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05180400250C853600E7E964 /* ViewController.swift */; };
+		05180403250C853600E7E964 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05180402250C853600E7E964 /* Document.swift */; };
+		05180405250C853900E7E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05180404250C853900E7E964 /* Assets.xcassets */; };
+		05180408250C853900E7E964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05180406250C853900E7E964 /* Main.storyboard */; };
+		0534F745250C9B9F00D147F6 /* CoconutScript.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 0534F743250C9B9F00D147F6 /* CoconutScript.sdef */; };
+		0534F746250C9B9F00D147F6 /* Mail.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 0534F744250C9B9F00D147F6 /* Mail.sdef */; };
+		05BF4FED250CE72F0079C82F /* ExternalSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF4FEC250CE72F0079C82F /* ExternalSoft.swift */; };
+		05E095A9250CBB02008C83D9 /* TextEdit.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 05E095A8250CBB02008C83D9 /* TextEdit.sdef */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		05673709250BA3A5002A0CC2 /* Embed Frameworks */ = {
+		05031D56250C878D00F38B37 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0567370B250BA3A7002A0CC2 /* KiwiControls.framework in Embed Frameworks */,
-				05673708250BA3A5002A0CC2 /* CoconutData.framework in Embed Frameworks */,
+				05031D59250C87A200F38B37 /* CoconutData.framework in Embed Frameworks */,
+				05031D55250C878D00F38B37 /* KiwiControls.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,89 +38,108 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		050B8846250B9E3A0080771A /* AppleEventChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleEventChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		050B8849250B9E3A0080771A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		050B884B250B9E3A0080771A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		050B884D250B9E3D0080771A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		050B8850250B9E3D0080771A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		050B8852250B9E3D0080771A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		050B8853250B9E3D0080771A /* AppleEventChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleEventChecker.entitlements; sourceTree = "<group>"; };
-		05673703250BA2BB002A0CC2 /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
-		05673705250BA2D3002A0CC2 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
+		05031D50250C873E00F38B37 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05031D53250C878D00F38B37 /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
+		05031D57250C87A200F38B37 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
+		051803FB250C853600E7E964 /* AppleEventChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleEventChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05180400250C853600E7E964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05180402250C853600E7E964 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		05180404250C853900E7E964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05180407250C853900E7E964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05180409250C853900E7E964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		0518040A250C853900E7E964 /* AppleEventChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppleEventChecker.entitlements; path = ../AppleEventChecker.entitlements; sourceTree = "<group>"; };
+		0534F743250C9B9F00D147F6 /* CoconutScript.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CoconutScript.sdef; sourceTree = "<group>"; };
+		0534F744250C9B9F00D147F6 /* Mail.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Mail.sdef; sourceTree = "<group>"; };
+		05BF4FEC250CE72F0079C82F /* ExternalSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalSoft.swift; sourceTree = "<group>"; };
+		05E095A8250CBB02008C83D9 /* TextEdit.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TextEdit.sdef; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		050B8843250B9E3A0080771A /* Frameworks */ = {
+		051803F8250C853600E7E964 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0567370A250BA3A7002A0CC2 /* KiwiControls.framework in Frameworks */,
-				05673707250BA3A5002A0CC2 /* CoconutData.framework in Frameworks */,
+				05031D58250C87A200F38B37 /* CoconutData.framework in Frameworks */,
+				05031D54250C878D00F38B37 /* KiwiControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		050B883D250B9E3A0080771A = {
+		05031D4F250C867300F38B37 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				053F9A9A250B9FFD008670C2 /* Source */,
-				050B8848250B9E3A0080771A /* AppleEventChecker */,
-				050B8847250B9E3A0080771A /* Products */,
-				05673702250BA2BB002A0CC2 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		050B8847250B9E3A0080771A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				050B8846250B9E3A0080771A /* AppleEventChecker.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		050B8848250B9E3A0080771A /* AppleEventChecker */ = {
-			isa = PBXGroup;
-			children = (
-				050B884D250B9E3D0080771A /* Assets.xcassets */,
-				050B884F250B9E3D0080771A /* Main.storyboard */,
-				050B8852250B9E3D0080771A /* Info.plist */,
-				050B8853250B9E3D0080771A /* AppleEventChecker.entitlements */,
-			);
-			path = AppleEventChecker;
-			sourceTree = "<group>";
-		};
-		053F9A9A250B9FFD008670C2 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				050B8849250B9E3A0080771A /* AppDelegate.swift */,
-				050B884B250B9E3A0080771A /* ViewController.swift */,
+				05031D50250C873E00F38B37 /* AppDelegate.swift */,
+				05180400250C853600E7E964 /* ViewController.swift */,
+				05180402250C853600E7E964 /* Document.swift */,
+				05BF4FEC250CE72F0079C82F /* ExternalSoft.swift */,
 			);
 			name = Source;
 			path = ../Source;
 			sourceTree = "<group>";
 		};
-		05673702250BA2BB002A0CC2 /* Frameworks */ = {
+		05031D52250C878D00F38B37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05673705250BA2D3002A0CC2 /* CoconutData.framework */,
-				05673703250BA2BB002A0CC2 /* KiwiControls.framework */,
+				05031D57250C87A200F38B37 /* CoconutData.framework */,
+				05031D53250C878D00F38B37 /* KiwiControls.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		051803F2250C853600E7E964 = {
+			isa = PBXGroup;
+			children = (
+				05031D4F250C867300F38B37 /* Source */,
+				0534F742250C9B8200D147F6 /* Resource */,
+				051803FD250C853600E7E964 /* AppleEventChecker */,
+				051803FC250C853600E7E964 /* Products */,
+				05031D52250C878D00F38B37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		051803FC250C853600E7E964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051803FB250C853600E7E964 /* AppleEventChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051803FD250C853600E7E964 /* AppleEventChecker */ = {
+			isa = PBXGroup;
+			children = (
+				05180404250C853900E7E964 /* Assets.xcassets */,
+				05180406250C853900E7E964 /* Main.storyboard */,
+				05180409250C853900E7E964 /* Info.plist */,
+				0518040A250C853900E7E964 /* AppleEventChecker.entitlements */,
+			);
+			path = AppleEventChecker;
+			sourceTree = "<group>";
+		};
+		0534F742250C9B8200D147F6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				05E095A8250CBB02008C83D9 /* TextEdit.sdef */,
+				0534F743250C9B9F00D147F6 /* CoconutScript.sdef */,
+				0534F744250C9B9F00D147F6 /* Mail.sdef */,
+			);
+			name = Resource;
+			path = ../Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		050B8845250B9E3A0080771A /* AppleEventChecker */ = {
+		051803FA250C853600E7E964 /* AppleEventChecker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 050B8856250B9E3D0080771A /* Build configuration list for PBXNativeTarget "AppleEventChecker" */;
+			buildConfigurationList = 0518040D250C853900E7E964 /* Build configuration list for PBXNativeTarget "AppleEventChecker" */;
 			buildPhases = (
-				050B8842250B9E3A0080771A /* Sources */,
-				050B8843250B9E3A0080771A /* Frameworks */,
-				050B8844250B9E3A0080771A /* Resources */,
-				05673709250BA3A5002A0CC2 /* Embed Frameworks */,
+				051803F7250C853600E7E964 /* Sources */,
+				051803F8250C853600E7E964 /* Frameworks */,
+				051803F9250C853600E7E964 /* Resources */,
+				05031D56250C878D00F38B37 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,25 +147,25 @@
 			);
 			name = AppleEventChecker;
 			productName = AppleEventChecker;
-			productReference = 050B8846250B9E3A0080771A /* AppleEventChecker.app */;
+			productReference = 051803FB250C853600E7E964 /* AppleEventChecker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		050B883E250B9E3A0080771A /* Project object */ = {
+		051803F3250C853600E7E964 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Steel Wheels Project";
 				TargetAttributes = {
-					050B8845250B9E3A0080771A = {
+					051803FA250C853600E7E964 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = 050B8841250B9E3A0080771A /* Build configuration list for PBXProject "AppleEventChecker" */;
+			buildConfigurationList = 051803F6250C853600E7E964 /* Build configuration list for PBXProject "AppleEventChecker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,45 +173,50 @@
 				en,
 				Base,
 			);
-			mainGroup = 050B883D250B9E3A0080771A;
-			productRefGroup = 050B8847250B9E3A0080771A /* Products */;
+			mainGroup = 051803F2250C853600E7E964;
+			productRefGroup = 051803FC250C853600E7E964 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				050B8845250B9E3A0080771A /* AppleEventChecker */,
+				051803FA250C853600E7E964 /* AppleEventChecker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		050B8844250B9E3A0080771A /* Resources */ = {
+		051803F9250C853600E7E964 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050B884E250B9E3D0080771A /* Assets.xcassets in Resources */,
-				050B8851250B9E3D0080771A /* Main.storyboard in Resources */,
+				05E095A9250CBB02008C83D9 /* TextEdit.sdef in Resources */,
+				0534F746250C9B9F00D147F6 /* Mail.sdef in Resources */,
+				0534F745250C9B9F00D147F6 /* CoconutScript.sdef in Resources */,
+				05180405250C853900E7E964 /* Assets.xcassets in Resources */,
+				05180408250C853900E7E964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		050B8842250B9E3A0080771A /* Sources */ = {
+		051803F7250C853600E7E964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				050B884C250B9E3A0080771A /* ViewController.swift in Sources */,
-				050B884A250B9E3A0080771A /* AppDelegate.swift in Sources */,
+				05BF4FED250CE72F0079C82F /* ExternalSoft.swift in Sources */,
+				05031D51250C873E00F38B37 /* AppDelegate.swift in Sources */,
+				05180401250C853600E7E964 /* ViewController.swift in Sources */,
+				05180403250C853600E7E964 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		050B884F250B9E3D0080771A /* Main.storyboard */ = {
+		05180406250C853900E7E964 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				050B8850250B9E3D0080771A /* Base */,
+				05180407250C853900E7E964 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -195,7 +224,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		050B8854250B9E3D0080771A /* Debug */ = {
+		0518040B250C853900E7E964 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +284,7 @@
 			};
 			name = Debug;
 		};
-		050B8855250B9E3D0080771A /* Release */ = {
+		0518040C250C853900E7E964 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,13 +337,14 @@
 			};
 			name = Release;
 		};
-		050B8857250B9E3D0080771A /* Debug */ = {
+		0518040E250C853900E7E964 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleEventChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -324,23 +354,23 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(HOME)/Library/Frameworks",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.AppleEventChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		050B8858250B9E3D0080771A /* Release */ = {
+		0518040F250C853900E7E964 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleEventChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = TR2DNF3P93;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -350,12 +380,11 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(HOME)/Library/Frameworks",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = github.com.steelwheels.AppleEventChecker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -363,25 +392,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		050B8841250B9E3A0080771A /* Build configuration list for PBXProject "AppleEventChecker" */ = {
+		051803F6250C853600E7E964 /* Build configuration list for PBXProject "AppleEventChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				050B8854250B9E3D0080771A /* Debug */,
-				050B8855250B9E3D0080771A /* Release */,
+				0518040B250C853900E7E964 /* Debug */,
+				0518040C250C853900E7E964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		050B8856250B9E3D0080771A /* Build configuration list for PBXNativeTarget "AppleEventChecker" */ = {
+		0518040D250C853900E7E964 /* Build configuration list for PBXNativeTarget "AppleEventChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				050B8857250B9E3D0080771A /* Debug */,
-				050B8858250B9E3D0080771A /* Release */,
+				0518040E250C853900E7E964 /* Debug */,
+				0518040F250C853900E7E964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 050B883E250B9E3A0080771A /* Project object */;
+	rootObject = 051803F3250C853600E7E964 /* Project object */;
 }
