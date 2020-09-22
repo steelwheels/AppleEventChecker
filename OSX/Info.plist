@@ -92,7 +92,7 @@
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
 	<key>OSAScriptingDefinition</key>
-	<string>Mail.sdef</string>
+	<string>Safari.sdef</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>

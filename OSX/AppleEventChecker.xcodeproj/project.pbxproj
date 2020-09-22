@@ -3,34 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		05031D51250C873E00F38B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05031D50250C873E00F38B37 /* AppDelegate.swift */; };
-		05031D54250C878D00F38B37 /* KiwiControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D53250C878D00F38B37 /* KiwiControls.framework */; };
-		05031D55250C878D00F38B37 /* KiwiControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D53250C878D00F38B37 /* KiwiControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		05031D58250C87A200F38B37 /* CoconutData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D57250C87A200F38B37 /* CoconutData.framework */; };
-		05031D59250C87A200F38B37 /* CoconutData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05031D57250C87A200F38B37 /* CoconutData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		05180401250C853600E7E964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05180400250C853600E7E964 /* ViewController.swift */; };
 		05180403250C853600E7E964 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05180402250C853600E7E964 /* Document.swift */; };
 		05180405250C853900E7E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05180404250C853900E7E964 /* Assets.xcassets */; };
 		05180408250C853900E7E964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05180406250C853900E7E964 /* Main.storyboard */; };
 		0534F745250C9B9F00D147F6 /* CoconutScript.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 0534F743250C9B9F00D147F6 /* CoconutScript.sdef */; };
 		0534F746250C9B9F00D147F6 /* Mail.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 0534F744250C9B9F00D147F6 /* Mail.sdef */; };
+		057BFB1E2519BEB9000B8292 /* KiwiControls.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057BFB1D2519BEB9000B8292 /* KiwiControls.xcframework */; };
+		057BFB1F2519BEB9000B8292 /* KiwiControls.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 057BFB1D2519BEB9000B8292 /* KiwiControls.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		057BFB222519BEC9000B8292 /* CoconutData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057BFB212519BEC9000B8292 /* CoconutData.xcframework */; };
+		057BFB232519BEC9000B8292 /* CoconutData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 057BFB212519BEC9000B8292 /* CoconutData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		058E2CD22510316300B4D342 /* Safari.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 058E2CD12510316200B4D342 /* Safari.sdef */; };
 		05BF4FED250CE72F0079C82F /* ExternalSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BF4FEC250CE72F0079C82F /* ExternalSoft.swift */; };
 		05E095A9250CBB02008C83D9 /* TextEdit.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 05E095A8250CBB02008C83D9 /* TextEdit.sdef */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		05031D56250C878D00F38B37 /* Embed Frameworks */ = {
+		057BFB202519BEB9000B8292 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				05031D59250C87A200F38B37 /* CoconutData.framework in Embed Frameworks */,
-				05031D55250C878D00F38B37 /* KiwiControls.framework in Embed Frameworks */,
+				057BFB1F2519BEB9000B8292 /* KiwiControls.xcframework in Embed Frameworks */,
+				057BFB232519BEC9000B8292 /* CoconutData.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		05031D50250C873E00F38B37 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		05031D53250C878D00F38B37 /* KiwiControls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KiwiControls.framework; path = ../../../Library/Frameworks/KiwiControls.framework; sourceTree = "<group>"; };
-		05031D57250C87A200F38B37 /* CoconutData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoconutData.framework; path = ../../../Library/Frameworks/CoconutData.framework; sourceTree = "<group>"; };
 		051803FB250C853600E7E964 /* AppleEventChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleEventChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05180400250C853600E7E964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05180402250C853600E7E964 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -50,6 +49,9 @@
 		0518040A250C853900E7E964 /* AppleEventChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AppleEventChecker.entitlements; path = ../AppleEventChecker.entitlements; sourceTree = "<group>"; };
 		0534F743250C9B9F00D147F6 /* CoconutScript.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CoconutScript.sdef; sourceTree = "<group>"; };
 		0534F744250C9B9F00D147F6 /* Mail.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Mail.sdef; sourceTree = "<group>"; };
+		057BFB1D2519BEB9000B8292 /* KiwiControls.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KiwiControls.xcframework; path = ../../../Library/Frameworks/KiwiControls.xcframework; sourceTree = "<group>"; };
+		057BFB212519BEC9000B8292 /* CoconutData.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CoconutData.xcframework; path = ../../../Library/Frameworks/CoconutData.xcframework; sourceTree = "<group>"; };
+		058E2CD12510316200B4D342 /* Safari.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Safari.sdef; sourceTree = "<group>"; };
 		05BF4FEC250CE72F0079C82F /* ExternalSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalSoft.swift; sourceTree = "<group>"; };
 		05E095A8250CBB02008C83D9 /* TextEdit.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TextEdit.sdef; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05031D58250C87A200F38B37 /* CoconutData.framework in Frameworks */,
-				05031D54250C878D00F38B37 /* KiwiControls.framework in Frameworks */,
+				057BFB1E2519BEB9000B8292 /* KiwiControls.xcframework in Frameworks */,
+				057BFB222519BEC9000B8292 /* CoconutData.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +84,8 @@
 		05031D52250C878D00F38B37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				05031D57250C87A200F38B37 /* CoconutData.framework */,
-				05031D53250C878D00F38B37 /* KiwiControls.framework */,
+				057BFB212519BEC9000B8292 /* CoconutData.xcframework */,
+				057BFB1D2519BEB9000B8292 /* KiwiControls.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +123,7 @@
 		0534F742250C9B8200D147F6 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				058E2CD12510316200B4D342 /* Safari.sdef */,
 				05E095A8250CBB02008C83D9 /* TextEdit.sdef */,
 				0534F743250C9B9F00D147F6 /* CoconutScript.sdef */,
 				0534F744250C9B9F00D147F6 /* Mail.sdef */,
@@ -139,7 +142,7 @@
 				051803F7250C853600E7E964 /* Sources */,
 				051803F8250C853600E7E964 /* Frameworks */,
 				051803F9250C853600E7E964 /* Resources */,
-				05031D56250C878D00F38B37 /* Embed Frameworks */,
+				057BFB202519BEB9000B8292 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Steel Wheels Project";
 				TargetAttributes = {
 					051803FA250C853600E7E964 = {
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05E095A9250CBB02008C83D9 /* TextEdit.sdef in Resources */,
+				058E2CD22510316300B4D342 /* Safari.sdef in Resources */,
 				0534F746250C9B9F00D147F6 /* Mail.sdef in Resources */,
 				0534F745250C9B9F00D147F6 /* CoconutScript.sdef in Resources */,
 				05180405250C853900E7E964 /* Assets.xcassets in Resources */,
@@ -250,6 +254,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -310,6 +315,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -342,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleEventChecker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
@@ -354,6 +361,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(HOME)/Library/Frameworks",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
@@ -368,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleEventChecker.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
@@ -380,6 +389,7 @@
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(HOME)/Library/Frameworks",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
